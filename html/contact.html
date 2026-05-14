@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="../style.css">
+    <link href='https://fonts.googleapis.com/css?family=Alexandria' rel='stylesheet'>
+  </head>
+
+  <body>
+    <div class="mobile-menu-btn">
+        <img src="../images/menu-burger.png" alt="Mobile-Menu-btn">
+    </div>
+    
+    <header class="header-main">
+      <nav>
+        <ul>
+          <h1>GREENTECH SOLUTIONS</h1>
+          <li><a href="home.html"><strong>Home</strong></a></li>
+          <li><a href="about.html"><strong>About Us</strong></a></li>
+          <li><a href="blog.html"><strong>Blog</strong></a></li>
+          <li><a href="contact.html"><strong>Contact Us</strong></a></li>
+          <li><a href="services.html"><strong>Services</strong></a></li>
+        </ul>
+      </nav>
+
+    </header>
+
+    <main>
+        <div class="wrapper textBackground">
+        <section id="contact-main">
+          <h2>Contact Us</h2>
+          <p>Want to know more about our services or have any suggestions? Get in touch with us today!</p>
+        </section>
+
+        
+          <section id="contactInfo">
+            <h3>Contact Information</h3>
+            <p><strong>Email:</strong> info@greentech.com</p>
+            <p><strong>Phone:</strong> (123) 456-7890</p>
+            <p><strong>Address:</strong> 123 Green Street, Eco City, Earth</p>
+          </section>
+
+          <section id="contactForm">
+            
+            <h3>Send Us a Message</h3>
+            <form action="#" method="post">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" placeholder="i.e John Smith" required>
+              <span class="error" id="nameError"></span>
+
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" placeholder="i.e john@example.com" required>
+              <span class="error" id="emailError"></span>
+
+              <label for="message">Message:</label>
+              <textarea id="message" name="message" rows="5" placeholder="Leave us a message!"></textarea>
+              <span class="error" id="messageError"></span>
+
+              <input type="submit" value="Submit">
+            </form>
+          </section>
+
+        </div>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 GreenTech Solutions</p>
+    </footer>
+
+    <script src="../js/script.js"></script>
+  </body>
+</html>
